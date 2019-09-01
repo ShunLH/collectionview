@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		904CF5DE2E43B7186A618B70 /* Pods_CollectionViewExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C6137E7939FF8E63FD173D /* Pods_CollectionViewExercise.framework */; };
 		EFAD1A00231A734C003D0A3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD19FF231A734C003D0A3D /* AppDelegate.swift */; };
 		EFAD1A02231A734C003D0A3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1A01231A734C003D0A3D /* ViewController.swift */; };
 		EFAD1A05231A734C003D0A3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAD1A03231A734C003D0A3D /* Main.storyboard */; };
 		EFAD1A07231A734D003D0A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAD1A06231A734D003D0A3D /* Assets.xcassets */; };
 		EFAD1A0A231A734D003D0A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAD1A08231A734D003D0A3D /* LaunchScreen.storyboard */; };
+		EFAD1A16231A73C8003D0A3D /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1A14231A73C8003D0A3D /* MovieCollectionViewCell.swift */; };
+		EFAD1A17231A73C8003D0A3D /* MovieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFAD1A15231A73C8003D0A3D /* MovieCollectionViewCell.xib */; };
+		EFAD1A1D231A7409003D0A3D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1A1C231A7409003D0A3D /* Extensions.swift */; };
+		EFAD1A1F231A7467003D0A3D /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1A1E231A7467003D0A3D /* MovieListViewController.swift */; };
+		EFAD1A23231A75B2003D0A3D /* MovieVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1A22231A75B2003D0A3D /* MovieVo.swift */; };
+		EFAD1A26231A7D62003D0A3D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1A25231A7D62003D0A3D /* CardView.swift */; };
+		EFAD1A29231A7ED1003D0A3D /* CustomSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1A27231A7ED1003D0A3D /* CustomSection.swift */; };
+		EFAD1A2A231A7ED1003D0A3D /* CustomSection.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFAD1A28231A7ED1003D0A3D /* CustomSection.xib */; };
+		EFAD1A2E231A9215003D0A3D /* MDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1A2D231A9215003D0A3D /* MDetect.swift */; };
+		EFAD1A30231A9423003D0A3D /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD1A2F231A9423003D0A3D /* AppConstants.swift */; };
+		EFB9243F231BC3640017AE08 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB9243E231BC3640017AE08 /* FlowLayout.swift */; };
+		EFB92441231BC9520017AE08 /* DamnLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB92440231BC9520017AE08 /* DamnLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F2FFFD824BCA5F054B845EB /* Pods-CollectionViewExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewExercise.release.xcconfig"; path = "Target Support Files/Pods-CollectionViewExercise/Pods-CollectionViewExercise.release.xcconfig"; sourceTree = "<group>"; };
+		6D59E3EF38B82B598202D6CF /* Pods-CollectionViewExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionViewExercise.debug.xcconfig"; path = "Target Support Files/Pods-CollectionViewExercise/Pods-CollectionViewExercise.debug.xcconfig"; sourceTree = "<group>"; };
+		D8C6137E7939FF8E63FD173D /* Pods_CollectionViewExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollectionViewExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAD19FC231A734C003D0A3D /* CollectionViewExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAD19FF231A734C003D0A3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFAD1A01231A734C003D0A3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,18 @@
 		EFAD1A06231A734D003D0A3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFAD1A09231A734D003D0A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFAD1A0B231A734D003D0A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAD1A14231A73C8003D0A3D /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFAD1A15231A73C8003D0A3D /* MovieCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCollectionViewCell.xib; sourceTree = "<group>"; };
+		EFAD1A1C231A7409003D0A3D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EFAD1A1E231A7467003D0A3D /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		EFAD1A22231A75B2003D0A3D /* MovieVo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVo.swift; sourceTree = "<group>"; };
+		EFAD1A25231A7D62003D0A3D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EFAD1A27231A7ED1003D0A3D /* CustomSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSection.swift; sourceTree = "<group>"; };
+		EFAD1A28231A7ED1003D0A3D /* CustomSection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomSection.xib; sourceTree = "<group>"; };
+		EFAD1A2D231A9215003D0A3D /* MDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDetect.swift; sourceTree = "<group>"; };
+		EFAD1A2F231A9423003D0A3D /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		EFB9243E231BC3640017AE08 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		EFB92440231BC9520017AE08 /* DamnLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DamnLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904CF5DE2E43B7186A618B70 /* Pods_CollectionViewExercise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1399C8BB2A7343D53BACF93F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D59E3EF38B82B598202D6CF /* Pods-CollectionViewExercise.debug.xcconfig */,
+				4F2FFFD824BCA5F054B845EB /* Pods-CollectionViewExercise.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7042333CF8DAA8BC97EF0EFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8C6137E7939FF8E63FD173D /* Pods_CollectionViewExercise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EFAD19F3231A734C003D0A3D = {
 			isa = PBXGroup;
 			children = (
 				EFAD19FE231A734C003D0A3D /* CollectionViewExercise */,
 				EFAD19FD231A734C003D0A3D /* Products */,
+				1399C8BB2A7343D53BACF93F /* Pods */,
+				7042333CF8DAA8BC97EF0EFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +102,106 @@
 		EFAD19FE231A734C003D0A3D /* CollectionViewExercise */ = {
 			isa = PBXGroup;
 			children = (
+				EFB9243D231BC2E50017AE08 /* layouts */,
+				EFAD1A24231A7D47003D0A3D /* components */,
+				EFAD1A20231A7597003D0A3D /* data */,
+				EFAD1A1B231A73EF003D0A3D /* utils */,
+				EFAD1A13231A736A003D0A3D /* cells */,
+				EFAD1A12231A735D003D0A3D /* viewcontrollers */,
+				EFAD1A11231A7358003D0A3D /* storyboards */,
 				EFAD19FF231A734C003D0A3D /* AppDelegate.swift */,
-				EFAD1A01231A734C003D0A3D /* ViewController.swift */,
-				EFAD1A03231A734C003D0A3D /* Main.storyboard */,
 				EFAD1A06231A734D003D0A3D /* Assets.xcassets */,
 				EFAD1A08231A734D003D0A3D /* LaunchScreen.storyboard */,
 				EFAD1A0B231A734D003D0A3D /* Info.plist */,
 			);
 			path = CollectionViewExercise;
+			sourceTree = "<group>";
+		};
+		EFAD1A11231A7358003D0A3D /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD1A03231A734C003D0A3D /* Main.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		EFAD1A12231A735D003D0A3D /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD1A01231A734C003D0A3D /* ViewController.swift */,
+				EFAD1A1E231A7467003D0A3D /* MovieListViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		EFAD1A13231A736A003D0A3D /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD1A1A231A73DA003D0A3D /* swifts */,
+				EFAD1A19231A73D6003D0A3D /* xibs */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		EFAD1A19231A73D6003D0A3D /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD1A15231A73C8003D0A3D /* MovieCollectionViewCell.xib */,
+				EFAD1A28231A7ED1003D0A3D /* CustomSection.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		EFAD1A1A231A73DA003D0A3D /* swifts */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD1A14231A73C8003D0A3D /* MovieCollectionViewCell.swift */,
+				EFAD1A27231A7ED1003D0A3D /* CustomSection.swift */,
+			);
+			path = swifts;
+			sourceTree = "<group>";
+		};
+		EFAD1A1B231A73EF003D0A3D /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD1A1C231A7409003D0A3D /* Extensions.swift */,
+				EFAD1A2D231A9215003D0A3D /* MDetect.swift */,
+				EFAD1A2F231A9423003D0A3D /* AppConstants.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		EFAD1A20231A7597003D0A3D /* data */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD1A21231A759E003D0A3D /* vos */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		EFAD1A21231A759E003D0A3D /* vos */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD1A22231A75B2003D0A3D /* MovieVo.swift */,
+			);
+			path = vos;
+			sourceTree = "<group>";
+		};
+		EFAD1A24231A7D47003D0A3D /* components */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD1A25231A7D62003D0A3D /* CardView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		EFB9243D231BC2E50017AE08 /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				EFB9243E231BC3640017AE08 /* FlowLayout.swift */,
+				EFB92440231BC9520017AE08 /* DamnLayout.swift */,
+			);
+			path = layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFAD1A0E231A734D003D0A3D /* Build configuration list for PBXNativeTarget "CollectionViewExercise" */;
 			buildPhases = (
+				C7BAB39A263D123DD238F68E /* [CP] Check Pods Manifest.lock */,
 				EFAD19F8231A734C003D0A3D /* Sources */,
 				EFAD19F9231A734C003D0A3D /* Frameworks */,
 				EFAD19FA231A734C003D0A3D /* Resources */,
+				B6F77D6AC11F83F123F2E199 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,18 +267,79 @@
 				EFAD1A0A231A734D003D0A3D /* LaunchScreen.storyboard in Resources */,
 				EFAD1A07231A734D003D0A3D /* Assets.xcassets in Resources */,
 				EFAD1A05231A734C003D0A3D /* Main.storyboard in Resources */,
+				EFAD1A2A231A7ED1003D0A3D /* CustomSection.xib in Resources */,
+				EFAD1A17231A73C8003D0A3D /* MovieCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6F77D6AC11F83F123F2E199 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CollectionViewExercise/Pods-CollectionViewExercise-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Rabbit-Swift/Rabbit_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rabbit_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CollectionViewExercise/Pods-CollectionViewExercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7BAB39A263D123DD238F68E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollectionViewExercise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EFAD19F8231A734C003D0A3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB9243F231BC3640017AE08 /* FlowLayout.swift in Sources */,
+				EFAD1A26231A7D62003D0A3D /* CardView.swift in Sources */,
+				EFAD1A16231A73C8003D0A3D /* MovieCollectionViewCell.swift in Sources */,
+				EFAD1A2E231A9215003D0A3D /* MDetect.swift in Sources */,
+				EFAD1A1F231A7467003D0A3D /* MovieListViewController.swift in Sources */,
+				EFB92441231BC9520017AE08 /* DamnLayout.swift in Sources */,
 				EFAD1A02231A734C003D0A3D /* ViewController.swift in Sources */,
+				EFAD1A23231A75B2003D0A3D /* MovieVo.swift in Sources */,
 				EFAD1A00231A734C003D0A3D /* AppDelegate.swift in Sources */,
+				EFAD1A29231A7ED1003D0A3D /* CustomSection.swift in Sources */,
+				EFAD1A1D231A7409003D0A3D /* Extensions.swift in Sources */,
+				EFAD1A30231A9423003D0A3D /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +483,11 @@
 		};
 		EFAD1A0F231A734D003D0A3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D59E3EF38B82B598202D6CF /* Pods-CollectionViewExercise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL394XTDGP;
 				INFOPLIST_FILE = CollectionViewExercise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +502,11 @@
 		};
 		EFAD1A10231A734D003D0A3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2FFFD824BCA5F054B845EB /* Pods-CollectionViewExercise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL394XTDGP;
 				INFOPLIST_FILE = CollectionViewExercise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
